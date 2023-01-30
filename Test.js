@@ -7,4 +7,3 @@ it {'should add double the number to the list'}} () {
     deepEqual(model.list, [14]);
 });
 
-    
