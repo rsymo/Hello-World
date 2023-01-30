@@ -33,7 +33,7 @@ Is your company picky about coding style? Maybe you’re the new guy and you don
 Developers hate writing tests! They’re often time consuming and verbose. With a little help Copilot can write entire tests for you.
 
 # How Do I Get Copilot?
-Copilot is currently in beta. [Sign up](https://github.com/features/copilot/signup).
+Copilot is now generally available. [Start your free trial today](https://github.com/features/copilot).
 
 Installing is as simple as adding a new VS Code extension and logging into GitHub. It’s also available for Neovim and JetBrains.
 - [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
