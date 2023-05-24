@@ -10,27 +10,27 @@ It’s not just inserting a snippet of code but is actually using the context of
 
 Together with OpenAI, we’re designing GitHub Copilot to get smarter at producing safe and effective code as developers use it. OpenAI Codex, our AI system, translates natural language to code.
 
-# Implementation Details
+**Implementation Details**
 With tasks like making a function that calculates the number of days between two dates developers default to a google search/stack overflow. With Copilot you simply write out a new function called “calculateDaysBetweenDates” and it will implement it for you.
 
 Never leave your IDE. Stay in the flow!
 
-# Autofill Repetitive Code
+**Autofill Repetitive Code**
 Have you ever found yourself writing repetitive lines of code or comments? Copilot notices these sort of patterns easily and will start suggesting the next line or even entire blocks of code.
 
-# A Push in The Right Direction
+**A Push in The Right Direction**
 Sometimes developers get stuck. They aren’t quite sure how to proceed with their application. They might go searching for answers on the internet. Copilot can help you get unstuck by making highly intelligent suggestions about what to do next.
 
-# Proficient in More Than A Dozen Programming Languages
+**Proficient in More Than A Dozen Programming Languages**
 Knowing a single programming language is hard enough! Even the best developers forget specific syntax or patterns. With Copilot you can just start typing and it’s suggested solutions will almost magically provide you with good code written in your project's programming language and framework.
 
-# Contextually Aware
+**Contextually Aware**
 Is your company picky about coding style? Maybe you’re the new guy and you don’t quite know all of their coding styles and patterns yet. With enough context Copilot will be suggesting code that is just right for your team’s project and matches all their preferences.
 
-# It Can Implement Tests!
+**It Can Implement Tests!**
 Developers hate writing tests! They’re often time consuming and verbose. With a little help Copilot can write entire tests for you.
 
-# How Do I Get Copilot?
+**How Do I Get Copilot?**
 Copilot is now generally available. [Start your free trial today](https://github.com/features/copilot).
 
 Installing is as simple as adding a new VS Code extension and logging into GitHub. It’s also available for Neovim and JetBrains.
@@ -40,7 +40,7 @@ Installing is as simple as adding a new VS Code extension and logging into GitHu
 GitHub Copilot Labs is a companion extension to GitHub Copilot that houses experimental and up-and-coming features in a sidebar.
 - [GitHub Copilot Labs](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-labs)
 
-## Getting Started
+**Getting Started**
 
 To install GitHub Copilot, check out the Getting Started guides:
 - [Visual Studio Code](docs/visualstudiocode/gettingstarted.md#getting-started-with-github-copilot-in-visual-studio-code)
@@ -50,7 +50,7 @@ To install GitHub Copilot, check out the Getting Started guides:
 
 For a tour of GitHub Copilot, visit the homepage at [copilot.github.com](https://copilot.github.com).
 
-## Useful links
+**Useful links**
 
 - [GitHub Copilot homepage](https://copilot.github.com)
 - [Gallery](https://github.com/github/copilot-docs/tree/main/gallery)
@@ -62,7 +62,7 @@ See [The Truth about Github Copilot // AI Programming First Look](https://youtu.
   <img src="https://img.youtube.com/vi/4duqI8WyfqE/maxresdefault.jpg" width="300px">
 </a>
 
-## OpenAI
+**OpenAI**
 Leaverage OpenAI to do other AI tasks such as completion, semantic search, classification, and much more!
 
 The [OpenAI API](https://openai.com/api/) makes these models easy to consume in a SASS format.
