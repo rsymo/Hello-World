@@ -8,9 +8,7 @@ All you have to do is write a descriptive function name or some comments and cop
 
 It’s not just inserting a snippet of code but is actually using the context of your project and all of the public code on the internet to synthesize new code. The more context Copilot has the better suggestions it can make for you!
 
-Together with OpenAI, we’re designing GitHub Copilot to get smarter at producing safe and effective code as developers use it.
-
-[Generative Pre-trained Transformer 3 (GPT-3)](https://openai.com/blog/gpt-3-apps/) uses deep learning to produce human-like text and is the most powerful language model ever. OpenAI Codex, our AI system, translates natural language to code.
+Together with OpenAI, we’re designing GitHub Copilot to get smarter at producing safe and effective code as developers use it. OpenAI Codex, our AI system, translates natural language to code.
 
 # Implementation Details
 With tasks like making a function that calculates the number of days between two dates developers default to a google search/stack overflow. With Copilot you simply write out a new function called “calculateDaysBetweenDates” and it will implement it for you.
