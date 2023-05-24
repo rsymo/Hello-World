@@ -1,6 +1,12 @@
+# to run tests use this command in the terminal
+# python3 -m unittest test_snake_game.py
+
 import unittest
 import pygame
-from snake_game import gameLoop
+
+#target = __import__("main.py")
+#gameLoop = target.gameLoop
+from main import gameLoop
 
 class TestSnakeGame(unittest.TestCase):
     def test_gameLoop(self):
