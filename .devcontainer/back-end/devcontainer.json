@@ -7,6 +7,7 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
+				"ms-python.python",
 				"vsls-contrib.codetour",
 				"GitHub.copilot"
 			]
