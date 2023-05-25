@@ -1,28 +1,69 @@
-# to run tests use this command in the terminal
-# python3 -m unittest test_snake_game.py
-
 import unittest
-import pygame
-
-#target = __import__("main.py")
-#gameLoop = target.gameLoop
-from main import gameLoop
+from snake_game import Game
 
 class TestSnakeGame(unittest.TestCase):
-    def test_gameLoop(self):
-        # Initialize Pygame
-        pygame.init()
+    def setUp(self):
+        self.game = Game()
 
-        # Set up the game window
-        dis_width = 600
-        dis_height = 400
-        dis = pygame.display.set_mode((dis_width, dis_height))
+    def test_x1_change(self):
+        self.game.x1_change = 10
+        self.game.gameLoop()
+        self.assertEqual(self.game.x1_change, 10)
 
-        # Call the gameLoop function
-        gameLoop()
+    def test_y1_change(self):
+        self.game.y1_change = 10
+        self.game.gameLoop()
+        self.assertEqual(self.game.y1_change, 10)
 
-        # Verify that the game window has been closed
-        self.assertEqual(pygame.display.get_init(), False)
+    def test_x1(self):
+        self.game.x1 = 10
+        self.game.gameLoop()
+        self.assertEqual(self.game.x1, 10)
 
+    def test_y1(self):
+        self.game.y1 = 10
+        self.game.gameLoop()
+        self.assertEqual(self.game.y1, 10)
+
+    def test_dis_width(self):
+        self.game.dis_width = 10
+        self.game.gameLoop()
+        self.assertEqual(self.game.dis_width, 10)
+
+    def test_dis_height(self):
+        self.game.dis_height = 10
+        self.game.gameLoop()
+        self.assertEqual(self.game.dis_height, 10)
+
+    def test_snake_block(self):
+        self.game.snake_block = 10
+        self.game.gameLoop()
+        self.assertEqual(self.game.snake_block, 10)
+
+    def test_snake_speed(self):
+        self.game.snake_speed = 10
+        self.game.gameLoop()
+        self.assertEqual(self.game.snake_speed, 10)
+
+    def test_snake_List(self):
+        self.game.snake_List = 10
+        self.game.gameLoop()
+        self.assertEqual(self.game.snake_List, 10)
+
+    def test_foodx(self):
+        self.game.foodx = 10
+        self.game.gameLoop()
+        self.assertEqual(self.game.foodx, 10)
+
+    def test_foody(self):
+        self.game.foody = 10
+        self.game.gameLoop()
+        self.assertEqual(self.game.foody, 10)
+
+    def test_snake_Head_position(self):
+        self.game.snake_Head = 10
+        self.game.gameLoop()
+        self.assertEqual(self.game.snake_Head, 10)
+    
 if __name__ == '__main__':
     unittest.main()
