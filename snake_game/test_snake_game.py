@@ -1,5 +1,7 @@
+# run tests with python -m unittest snake_game/test_snake_game.py
+
 import unittest
-from snake_game import Game
+from snake_game.snake_game import gameLoop
 
 class TestSnakeGame(unittest.TestCase):
     def setUp(self):

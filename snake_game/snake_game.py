@@ -131,7 +131,7 @@ gameLoop()
 
 import unittest
 import pygame
-from snake_game import gameLoop
+from snake_game.snake_game import gameLoop
 
 class TestSnakeGame(unittest.TestCase):
     def test_gameLoop(self):
