@@ -1,9 +1,15 @@
+# run game with:
+# /usr/local/python/current/bin/python /workspaces/Hello-World/snake_game/snake_game.py
+# or
+# python /workspaces/Hello-World/snake_game/snake_game.py
+
+
 import pygame
 import time
 import random
  
+# initialize pygame, create window,set captions, clock, colors,display and fonts
 pygame.init()
- 
 white = (255, 255, 255)
 yellow = (255, 255, 102)
 black = (0, 0, 0)
@@ -21,11 +27,18 @@ clock = pygame.time.Clock()
  
 snake_block = 10
 snake_speed = 15
- 
-font_style = pygame.font.SysFont("bahnschrift", 25)
-score_font = pygame.font.SysFont("comicsansms", 35)
- 
- 
+
+# fonts 
+# font_style = pygame.font.SysFont("bahnschrift", 25)
+# score_font = pygame.font.SysFont("comicsansms", 35)
+
+#font_style = pygame.font.get_default_font() 
+#score_font = pygame.font.get_default_font() 
+
+font_style = pygame.font.Font(None, 25)
+score_font = pygame.font.Font(None, 35)
+
+
 def Your_score(score):
     value = score_font.render("Your Score: " + str(score), True, yellow)
     dis.blit(value, [0, 0])
@@ -124,30 +137,3 @@ def gameLoop():
  
  
 gameLoop()
-
-
-# Adding tests for the game
-
-
-import unittest
-import pygame
-from snake_game.snake_game import gameLoop
-
-class TestSnakeGame(unittest.TestCase):
-    def test_gameLoop(self):
-        # Initialize Pygame
-        pygame.init()
-
-        # Set up the game window
-        dis_width = 600
-        dis_height = 400
-        dis = pygame.display.set_mode((dis_width, dis_height))
-
-        # Call the gameLoop function
-        gameLoop()
-
-        # Verify that the game window has been closed
-        self.assertEqual(pygame.display.get_init(), False)
-
-if __name__ == '__main__':
-    unittest.main()
