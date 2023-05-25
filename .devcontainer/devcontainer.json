@@ -32,8 +32,8 @@
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "pip3 install --user -r requirements.txt",
 
-	"postCreateCommand": "pip3 install --upgrade pip" ,
-	"postCreateCommand": "pip3 install pygame fclist",
+	"postCreateCommand": "pip3 install --user --upgrade pip" ,
+	"postCreateCommand": "pip3 install --user pygame",
 	
 	// Configure tool-specific properties.
 	// "customizations": {},
