@@ -21,5 +21,6 @@ function getMonthName(month) {
   return months[month - 1];
 }
 
+// create a function to get the month in the year in german
 
 
